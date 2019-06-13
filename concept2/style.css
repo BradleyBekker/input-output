@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  background-color: white;
+  margin: 0px;
+
+}
+#canvas{
+  background-color: black;
+}
+#video{
+  background-color: gray;
+
+}
+#rules{
+  text-align: left;
+  background-color: blue;
+  display:inline-block;
+  width :300px;
+  max-width :300px;
+   height :500px;
+
+   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+
+   top: 0; /* Stay at the top */
+   left: 0;
+
+   overflow-x: hidden; /* Disable horizontal scroll */
+   padding-top: 20px;
+   padding-left: 20px;
+}
+#colorPicker{
+   z-index: 1;
+  position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+
+
+   border: 2px solid #4CAF50;
+
+}
